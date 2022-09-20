@@ -1,0 +1,15 @@
+{
+    "plugin-data":
+    {
+        "name": "Upload Plugin",
+        "description": "Upload Plugin or Themes direct from CMS"
+    },
+    "menu-title":"Upload Plugin",
+    "title":"Upload Plugins & Themes",
+    "choose-plugorthemes":"Choose or drop file",
+    "plugin":"Plugins",
+    "theme":"Theme",
+    "chosezip":"Choose a zip file to upload (and select either Plugin or Themes):",
+    "upload":"Upload",
+    "paypal":"Support my work via PayPal :) Thanks!"
+}
