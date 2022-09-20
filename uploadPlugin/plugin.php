@@ -6,7 +6,7 @@ class uploadPlugin extends Plugin {
  
 public function adminController(){  
 
- 
+ global $L;
 
 function rmdir_recursive($dir) {
     foreach (scandir($dir) as $file) {
@@ -84,11 +84,11 @@ if (@$_FILES["zip_file"]["name"]) {
                 unlink($targetzip);
             }
             global $message;
-           $message = "<p class='mes animate__animated animate__fadeInDown' style='animation-delay:1s;opacity:0;animation-fill-mode:forwards'>Your Plugin or Themes was uploaded and unpacked.</p>";
+           $message = "<p class='mes animate__animated animate__fadeInDown' style='animation-delay:1s;opacity:0;animation-fill-mode:forwards'>".$L->get('success')."</p>";
         } 
     }else {
         global $message;
-        $message = "<p class='mes mes-error animate__animated animate__fadeInDown' style='animation-delay:1s;opacity:0;animation-fill-mode:forwards'>There was a problem with the upload. Please try again.</p>";
+        $message = "<p class='mes mes-error animate__animated animate__fadeInDown' style='animation-delay:1s;opacity:0;animation-fill-mode:forwards'>".$L->get('error')."</p>";
     }
 
 

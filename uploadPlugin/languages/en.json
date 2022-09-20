@@ -2,14 +2,16 @@
     "plugin-data":
     {
         "name": "Upload Plugin",
-        "description": "Upload Plugin or Themes direct from CMS"
+        "description": "Upload Plugins and Themes direct from Bludit CMS"
     },
     "menu-title":"Upload Plugin",
     "title":"Upload Plugins & Themes",
-    "choose-plugorthemes":"Choose or drop file",
-    "plugin":"Plugins",
+    "choose-plugorthemes":"Choose or drop file here",
+    "plugin":"Plugin",
     "theme":"Theme",
     "chosezip":"Choose a zip file to upload (and select either Plugin or Themes):",
     "upload":"Upload",
-    "paypal":"Support my work via PayPal :) Thanks!"
+    "paypal":"Support my work via PayPal :) Thanks!",
+    "success":"Your Plugin or Theme was successfully uploaded and unpacked.",
+    "error":"There was a problem with the upload or unpacking. Please try again."
 }
