@@ -1,0 +1,17 @@
+{
+    "plugin-data":
+    {
+        "name": "Yükleme Eklentisi",
+        "description": "Bludit CMS üzerinden direkt olarak Eklenti ve Tema yükleyin."
+    },
+    "menu-title":"Yükleme Eklentisi",
+    "title":"Eklenti & Tema Yükle",
+    "choose-plugorthemes":"Seç veya dosyayı buraya sürükle",
+    "plugin":"Eklenti",
+    "theme":"Tema",
+    "chosezip":"Yüklemek için bir .zip dosyası seçin (ve Eklenti veya Tema seçeneklerinden birini):",
+    "upload":"Yükle",
+    "paypal":"Beni PayPal aracılığı ile destekleyin :) Teşekkürler!",
+    "success":"Eklentin veya Teman başarıyla yüklendi ve çıkarıldı.",
+    "error":"Yükleme veya çıkarma ile ilgili bir hata oluştu. Tekrar deneyin."
+}
